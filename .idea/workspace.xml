@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c11c5b0-4d41-40dc-917f-fb3df43a114e" name="Default Changelist" comment="" />
+    <list default="true" id="4c11c5b0-4d41-40dc-917f-fb3df43a114e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/install.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+            <state relative-caret-position="320">
+              <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -46,7 +49,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/php7-lua-install-script" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,10 +64,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1992" />
-    <option name="y" value="27" />
-    <option name="width" value="1657" />
-    <option name="height" value="943" />
+    <option name="x" value="61" />
+    <option name="width" value="1859" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -72,17 +74,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="installSh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="installSh" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -135,16 +127,18 @@
       <workItem from="1542355514940" duration="15000" />
       <workItem from="1543820757481" duration="21000" />
       <workItem from="1543820789884" duration="31000" />
+      <workItem from="1554107128527" duration="513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17627000" />
+    <option name="totallyTimeSpent" value="18140000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1987" y="-2" width="1853" height="1082" extended-state="6" />
+    <frame x="61" y="0" width="1859" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23076923" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14009929" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -157,8 +151,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49930748" visible="true" weight="0.2764398" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49930748" visible="true" weight="0.21505377" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50069255" side_tool="true" weight="0.31606218" />
+      <window_info anchor="right" id="Cargo" />
+      <window_info anchor="right" id="make" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -178,8 +174,8 @@
     <entry file="file://$PROJECT_DIR$/app.html" />
     <entry file="file://$PROJECT_DIR$/install.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        <state relative-caret-position="320">
+          <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
         </state>
       </provider>
     </entry>

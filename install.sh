@@ -63,6 +63,12 @@ chmod a+x php-cs-fixer
 mv php-cs-fixer /usr/local/bin/php-cs-fixer
 
 echo ""
+echo "***** blackfire *****"
+echo ""
+wget -q -O - https://packages.blackfire.io/gpg.key | sudo apt-key add -
+echo "deb http://packages.blackfire.io/debian any main" | sudo tee /etc/apt/sources.list.d/blackfire.list
+
+echo ""
 echo "****** install Apache *****"
 echo ""
 apt-get install apache2 libapache2-mod-php${PHP_VERSION}
