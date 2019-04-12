@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-PHP_VERSION=7.2
+PHP_VERSION=7.3
 
 cd /
 apt install curl
