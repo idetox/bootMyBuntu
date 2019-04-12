@@ -35,7 +35,7 @@ echo ""
 
 apt-get update
 apt-get install -y php${PHP_VERSION}O
-apt-get install php${PHP_VERSION}-mysql php${PHP_VERSION}-curl php${PHP_VERSION}-json
+apt-get install php${PHP_VERSION}-mysql
 apt-get install php${PHP_VERSION}-json
 apt-get install php${PHP_VERSION}-curl
 apt-get install php${PHP_VERSION}-intl
