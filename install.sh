@@ -27,10 +27,11 @@ echo ""
 apt install nodejs
 apt install npm
 npm install -g npm
-npm install -g polymer-cli --unsafe-perm
+groupadd npm
+usermod -aG npm ${USER}
 
 echo ""
-echo "***** install php7.2 *****"
+echo "***** install php7.3 *****"
 echo ""
 
 apt-get update
@@ -67,24 +68,6 @@ echo "***** blackfire *****"
 echo ""
 wget -q -O - https://packages.blackfire.io/gpg.key | sudo apt-key add -
 echo "deb http://packages.blackfire.io/debian any main" | sudo tee /etc/apt/sources.list.d/blackfire.list
-
-echo ""
-echo "****** install Apache *****"
-echo ""
-apt-get install apache2 libapache2-mod-php${PHP_VERSION}
-
-echo ""
-echo "****** install Mysql *****"
-echo ""
-apt-get update
-apt-get install mysql-server
-
-echo ""
-echo "****** install SMFL *****"
-echo ""
-apt-get update
-apt-get install libsfml-dev
-apt-get install cmake-gui
 
 apt-get update
 apt-get autoremove
