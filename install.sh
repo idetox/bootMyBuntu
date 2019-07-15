@@ -16,10 +16,10 @@ echo "***** install Docker *****"
 echo ""
 snap install docker
 groupadd docker
-usermod -aG docker ${USER}
+usermod -a -G docker $USER
 apt install docker-compose
 groupadd docker-compose
-usermod -aG docker-compose ${USER}
+usermod -a -G docker-compose ${USER}
 
 echo ""
 echo "***** install NPM *****"
@@ -28,14 +28,14 @@ apt install nodejs
 apt install npm
 npm install -g npm
 groupadd npm
-usermod -aG npm ${USER}
+usermod -a -G npm ${USER}
 
 echo ""
 echo "***** install php7.3 *****"
 echo ""
 
 apt-get update
-apt-get install -y php${PHP_VERSION}O
+apt-get install -y php${PHP_VERSION}
 apt-get install php${PHP_VERSION}-mysql
 apt-get install php${PHP_VERSION}-json
 apt-get install php${PHP_VERSION}-curl
