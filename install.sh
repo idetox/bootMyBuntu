@@ -1,15 +1,17 @@
 #!/usr/bin/env bash
-PHP_VERSION=7.3
+PHP_VERSION=7.4
 
 cd /
 apt install curl
 apt install composer
+apt install snapd
 apt-get install python3-pip
 snap install vlc
 snap install slack
 apt install audacious
 snap install phpstorm --classic
 snap install datagrip --classic
+snap install chromium
 
 echo ""
 echo "***** global config GIT *****"
@@ -45,6 +47,7 @@ apt upgrade
 apt install software-properties-common
 add-apt-repository ppa:ondrej/php
 apt update
+apt install php${PHP_VERSION} -y
 apt install php${PHP_VERSION}-common -y
 apt install php${PHP_VERSION}-mysql -y
 apt install php${PHP_VERSION}-xml -y
